@@ -8,6 +8,3 @@ BlobeVM is a Virtual Machine that...
 * Can run games with almost no lag
 * Can Bypass School Network
 * Is very fast
-
-Steam works great in BlobeVM! To download it, visit this link inside BlobeVM:
-https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe
