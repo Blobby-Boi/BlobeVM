@@ -1,0 +1,25 @@
+Screen, Horizontal, Vertical {
+    align: center middle;
+    padding: 0;
+}
+
+SelectionList, Select, Terminal {
+    width: 100%;
+    height: 45%;
+}
+
+Button {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+Label {
+    margin-left: 1;
+}
+
+#advinstall, #cancel, #install {
+    width: 100%;
+    margin-bottom: 1;
+    margin-left: 8;
+}
