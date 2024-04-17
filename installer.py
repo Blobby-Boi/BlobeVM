@@ -45,6 +45,7 @@ class InstallScreen(Screen):
             ("Chrome", 1, True),
             ("Xarchiver", 2, True),
             ("Discord", 3, True),
+            ("Steam", 4, True),
             id="defaultapps"
         ),),
         Vertical (
