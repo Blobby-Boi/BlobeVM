@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=AQEMU
+GenericName=QEMU & KVM Virtual Machine Manager
+Exec=sudo aqemu
+Terminal=false
+Type=Application
+Icon=aqemu
+StartupNotify=true
+Categories=System;Emulator;
+
+Comment=Virtual machine manager
+Comment[ru]=Управление виртуальными машинами
+Comment[en]=Front-end for QEMU and KVM
+Comment[it]=Interfaccia Grafica per QEMU e KVM
+Comment[fr]=Interface graphique pour QEMU et KVM
+Keywords=qt,qemu,front-end,emulator
