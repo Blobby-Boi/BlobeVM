@@ -46,7 +46,7 @@ class InstallScreen(Screen):
             ("Xarchiver", 2, True),
             ("Discord", 3, True),
             ("Steam", 4, True),
-            ("TLauncher (Minecraft Client)", 5, True),
+            ("Minecraft", 5, True),
             id="defaultapps"
         ),),
         Vertical (
