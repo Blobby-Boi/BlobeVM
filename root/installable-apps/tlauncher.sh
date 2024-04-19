@@ -8,8 +8,6 @@ apt install -y openjdk-17-jdk wget unzip
 echo "**** Downloading TLauncher ****"
 wget -O /opt/tlauncher/TLauncher.jar https://repo.tlauncher.org/update/lch/starter-core-1.11-v10.jar
 
-find /opt/tlauncher -type f -name '*.jar' -exec mv -f {} /opt/tlauncher/TLauncher.jar \;
-
 cat > /usr/share/applications/tlauncher.desktop <<EOL
 [Desktop Entry]
 Name=TLauncher
