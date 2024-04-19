@@ -14,7 +14,7 @@ rm /tmp/tlauncher.zip
 cat > /usr/share/applications/tlauncher.desktop <<EOL
 [Desktop Entry]
 Name=TLauncher
-Comment=Custom Minecraft launcher
+Comment=Minecraft launcher
 Exec=java -jar /opt/tlauncher/TLauncher.jar
 Icon=/opt/tlauncher/TLauncher_icon.png
 Terminal=false
