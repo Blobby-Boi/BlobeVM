@@ -3,7 +3,7 @@ apt update
 apt --fix-broken install -y
 
 echo "**** Installing OpenJDK 17 ****"
-apt install -y openjdk-17-jre-headless
+apt install -y openjdk-17-jdk wget unzip
 
 echo "**** Installing TLauncher ****"
 wget -O /tmp/tlauncher.zip https://tlauncher.org/jar
