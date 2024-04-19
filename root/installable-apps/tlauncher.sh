@@ -1,12 +1,9 @@
-echo "**** Installing OpenJDK 11 ****"
+echo "**** Fixing broken dependencies ****"
 apt update
-apt install -y openjdk-11-jre-headless wget unzip
+apt --fix-broken install -y
 
-# Check if Java installation was successful
-if [ $? -ne 0 ]; then
-    echo "Java installation failed. Aborting TLauncher installation."
-    exit 1
-fi
+echo "**** Installing default-jre ****"
+apt install -y default-jre wget unzip
 
 echo "**** Installing TLauncher ****"
 wget -O /tmp/tlauncher.zip https://tlauncher.org/jar
