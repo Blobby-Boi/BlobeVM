@@ -24,7 +24,6 @@ Type=Application
 Categories=Game;
 EOL
 
-# Downloading the Minecraft logo icon
 wget -O /opt/tlauncher/TLauncher_icon.png https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png
 
 chmod +x /usr/share/applications/tlauncher.desktop
