@@ -5,11 +5,8 @@ apt --fix-broken install -y
 echo "**** Installing OpenJDK 17 ****"
 apt install -y openjdk-17-jdk wget unzip
 
-echo "**** Installing TLauncher ****"
-wget -O /tmp/tlauncher.zip https://tlauncher.org/jar
-mkdir -p /opt/tlauncher
-unzip /tmp/tlauncher.zip -d /opt/tlauncher
-rm /tmp/tlauncher.zip
+echo "**** Downloading TLauncher ****"
+wget -O /opt/tlauncher/TLauncher.jar https://repo.tlauncher.org/update/lch/starter-core-1.11-v10.jar
 
 find /opt/tlauncher -type f -name '*.jar' -exec mv -f {} /opt/tlauncher/TLauncher.jar \;
 
