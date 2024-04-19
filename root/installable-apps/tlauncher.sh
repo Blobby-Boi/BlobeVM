@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "**** install java ****"
 apt update
 apt install -y default-jre wget
