@@ -11,6 +11,9 @@ mkdir -p /opt/tlauncher
 unzip /tmp/tlauncher.zip -d /opt/tlauncher
 rm /tmp/tlauncher.zip
 
+# Renaming the extracted TLauncher file to TLauncher.jar
+mv /opt/tlauncher/tlauncher /opt/tlauncher/TLauncher.jar
+
 cat > /usr/share/applications/tlauncher.desktop <<EOL
 [Desktop Entry]
 Name=TLauncher
