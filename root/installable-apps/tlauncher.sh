@@ -2,8 +2,8 @@ echo "**** Fixing broken dependencies ****"
 apt update
 apt --fix-broken install -y
 
-echo "**** Installing default-jre ****"
-apt install -y default-jre wget unzip
+echo "**** Installing OpenJDK 17 ****"
+apt install -y openjdk-17-jre-headless
 
 echo "**** Installing TLauncher ****"
 wget -O /tmp/tlauncher.zip https://tlauncher.org/jar
