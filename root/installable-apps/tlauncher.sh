@@ -1,6 +1,6 @@
 echo "**** Installing OpenJDK 11 ****"
 apt update
-apt install -y openjdk-11-jre-headless wget
+apt install -y openjdk-11-jre-headless wget unzip
 
 # Check if Java installation was successful
 if [ $? -ne 0 ]; then
