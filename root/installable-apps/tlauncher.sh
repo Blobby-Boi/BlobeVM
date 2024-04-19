@@ -1,6 +1,6 @@
 echo "**** Installing OpenJDK 11 ****"
 apt update
-apt install -y openjdk-11-jre-headless wget unzip
+apt install -y openjdk-11-jre-headless wget
 
 # Check if Java installation was successful
 if [ $? -ne 0 ]; then
@@ -19,13 +19,14 @@ cat > /usr/share/applications/tlauncher.desktop <<EOL
 Name=TLauncher
 Comment=Custom Minecraft launcher
 Exec=java -jar /opt/tlauncher/TLauncher.jar
-Icon=/opt/tlauncher/TLauncher.png
+Icon=/opt/tlauncher/TLauncher_icon.png
 Terminal=false
 Type=Application
 Categories=Game;
 EOL
 
-wget -O /opt/tlauncher/TLauncher.png https://tlauncher.org/images/icon.png
+# Downloading the Minecraft logo icon
+wget -O /opt/tlauncher/TLauncher_icon.png https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png
 
 chmod +x /usr/share/applications/tlauncher.desktop
 
