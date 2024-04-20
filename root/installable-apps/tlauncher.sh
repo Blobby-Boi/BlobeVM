@@ -9,7 +9,7 @@ echo "**** Downloading TLauncher ****"
 wget -O /tmp/TLauncher.jar https://repo.tlauncher.org/update/lch/starter-core-1.11-v10.jar
 mkdir -p /opt/tlauncher
 mv /tmp/TLauncher.jar /opt/tlauncher/
-rm /tmp/Tlauncher.jar
+rm /tmp/TLauncher.jar
 
 cat > /usr/share/applications/tlauncher.desktop <<EOL
 [Desktop Entry]
