@@ -64,7 +64,7 @@ class InstallScreen(Screen):
             ("LibreOffice", 1),
             ("Synaptic", 2),
             ("AQemu (VMs)", 3),
-            ("Tlauncher", 4),
+            ("TLauncher", 4),
             id="apps"
         ),),
         )
