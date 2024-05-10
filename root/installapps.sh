@@ -23,8 +23,8 @@ if jq ".defaultapps | contains([4])" "$json_file" | grep -q true; then
     /installable-apps/steam.sh
 fi
 if jq ".defaultapps | contains([5])" "$json_file" | grep -q true; then
-    chmod +x /installable-apps/tlauncher.sh
-    /installable-apps/tlauncher.sh
+    chmod +x /installable-apps/minecraft.sh
+    /installable-apps/minecraft.sh
 fi
 
 if jq ".programming | contains([0])" "$json_file" | grep -q true; then
