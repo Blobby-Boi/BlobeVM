@@ -56,7 +56,10 @@ if jq ".apps | contains([3])" "$json_file" | grep -q true; then
     chmod +x /installable-apps/aqemu.sh
     /installable-apps/aqemu.sh
 fi
-
+if jq ".apps | contains([4])" "$json_file" | grep -q true; then
+    chmod +x /installable-apps/tlauncher.sh
+    /installable-apps/tlauncher.sh
+fi
 # clean stuff
 
 rm -rf /installable-apps
