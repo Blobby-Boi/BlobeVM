@@ -17,6 +17,7 @@ COPY /root/ /
 
 RUN \
   echo "**** install packages ****" && \
+  rm -f /etc/apt/sources.list.d/nodesource.list && \
   add-apt-repository -y ppa:mozillateam/ppa && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y firefox jq wget && \
